@@ -11,14 +11,16 @@ First, the points within the line are binned into a user defined bin size.  Then
 
 Find a simple example below:
 
-@parameters
+
 ```python
+# Parameters
 bin_size = 2
 threshold = 0.3 #(30% of the bin has to be covered with signal)
 ceiling = 510 #(Max signal * bin size)
 ```
 
-sample1.csv
+>sample1.csv
+
 X | Y
 - | -
 0 | 255
@@ -33,7 +35,8 @@ X | Y
 9 | 255
 10 | 255
 
-sample2.csv
+>sample2.csv
+
 X | Y
 - | -
 0 | 255
@@ -48,7 +51,8 @@ X | Y
 9 | 255
 10 | 255
 
-summary.csv
+>summary.csv
+
 X | Score |	sample1.csv | sample2.csv | penetrance
 - | ----- | ----------- | ----------- | ----------
 (0,2] | 2 | 1 | 1 | 1
