@@ -1,4 +1,7 @@
 ## Signal probability along line
+
+[![DOI](https://zenodo.org/badge/457620356.svg)](https://zenodo.org/badge/latestdoi/457620356)
+
 This program aims to summarize the probability of finding a signal along a line from multiple samples.
 
 To use it, run __main__.py.
